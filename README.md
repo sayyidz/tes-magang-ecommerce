@@ -94,7 +94,7 @@ http://localhost:3000/api-docs
 * `PUT /products/:id`
 * `DELETE /products/:id`
 
-### 📟 Orders (JWT optional, depending on usage)
+### 📟 Orders
 
 * `GET /orders`
 * `POST /orders`
@@ -110,7 +110,7 @@ http://localhost:3000/api-docs
 
 ## 🧑‍💻 Developer Notes
 
-To create a default admin (if no registration available), use a seeder script:
+To create a default admin, use a seeder script:
 
 ```bash
 node src/scripts/seedAdmin.js
